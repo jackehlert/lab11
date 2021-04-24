@@ -1,4 +1,4 @@
-function [f]=fiboRecursive(n)
+function [f]=fiboRecursiveInit(n)
     global count;
     count=0;
     f=fiboRecursive(n);
